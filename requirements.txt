@@ -1,0 +1,12 @@
+numpy<2.4
+pandas
+matplotlib
+trimesh
+rtree
+jupyter
+ipykernel
+scipy
+torch
+numba
+scikit-image
+pysdf

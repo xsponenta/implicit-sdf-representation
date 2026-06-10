@@ -1,0 +1,18 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+
+# Local experiment scratch
+runs/
+outputs/
+tmp/
+*.log
+
+# Keep submitted compact models and provided meshes tracked.
+!models/*.npz
+!models/*.csv
+!test_task_meshes/*.obj
