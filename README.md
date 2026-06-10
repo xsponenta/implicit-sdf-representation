@@ -52,8 +52,6 @@ Representative inference speed from `bench.csv`:
 | 10k points | about 0.31-0.37 ms |
 | 100k points | about 2.4-2.9 ms |
 
-See `docs/REPORT.md` or `docs/REPORT.pdf` for the full report, method survey, ablations, and detailed explanation.
-
 ## Repository Layout
 
 | Path | Contents |
@@ -65,7 +63,6 @@ See `docs/REPORT.md` or `docs/REPORT.pdf` for the full report, method survey, ab
 | `test_task_meshes/` | provided `.obj` meshes |
 | `models/` | exported per-object SDF archives plus CSV metrics |
 | `data/` | small cached/sample data used by the notebook |
-| `docs/` | report, tutorial, method notes, and PDFs |
 
 ## Setup
 
@@ -118,5 +115,3 @@ Open `train.ipynb` and run the cells in order. The notebook:
 3. trains one SDF model per mesh;
 4. exports compressed `.npz` model files;
 5. evaluates occupancy F1 and benchmarks inference speed.
-
-The report in `docs/REPORT.md` explains the rationale for the final method and why simpler direct paper implementations were not enough for the homework constraints.
